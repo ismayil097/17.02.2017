@@ -1,0 +1,356 @@
+html,body,p,h1,h2{
+    margin:0;
+    padding:0;
+}
+html{
+    font-family: 'Nunito Sans', sans-serif;
+}
+*,*:after,*:before{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear:both;
+}
+.wrapper{
+    width:80%;
+    margin:0 auto;
+ }
+.full{
+    width: 100%;
+}
+.texture{
+    margin:0;
+    background-repeat:repeat;
+    width: 100%;
+    min-height: 100%;
+    background-image: url(../img/grid.png);
+}
+/*header*/
+header{
+    min-height: 800px;
+    background: url(../img/hero-01.jpg) no-repeat center center;
+    overflow: hidden;
+    background-size: cover;
+    color: #fff;
+}
+header section{
+    padding: 60px 0 60px 0;
+    height: 800px;
+}
+
+.logo{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.menu{
+    width: 50%;
+    text-align:right;
+    float: right;
+}
+.menu p{
+    font-weight: bold;
+}
+.head-content{
+    text-align: left;
+    padding-top:200px;
+}
+.head-content h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 42px;
+    padding-bottom: 50px;
+}
+.use-button {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 20px 50px;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #4b98a9;
+    font-size: 16px;
+}
+.learn-button{
+    display: inline-block;
+    padding: 18px 46px;
+    border-radius: 3px;
+    border:2px solid white;
+    color: white;
+    font-size: 16px;
+}
+.use-button:hover{
+    border-color: #73d0da;
+    text-decoration: none;
+    background-color: #73d0da;
+    color:white;
+}
+.learn-button:hover{
+    border-color: #73d0da;
+    color: #73d0da;
+    text-decoration: none;
+}
+/*video section*/
+.videoSection{
+    text-align: center;
+    padding:75px;
+
+}
+.videoSection a{
+    color: #323a45;
+    font-size: 24px;
+}
+.videoSection i{
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.videoSection a:hover{
+    color: #73d0da;
+}
+/*slider section*/
+#slider{
+    height: 400px;
+}
+#slider>div{
+    width: 50%;
+    height: 100%;
+    float:left;
+
+}
+#slider>div:first-child{
+    background-image: url(../img/features-intro.jpg) ;
+    background-size: cover;
+    background-position:center;
+    overflow: hidden;
+}
+#slider img{
+    margin-left:270px;
+    margin-top:160px;
+}
+#slider>div:last-child{
+    padding:100px;
+    background-color: #3F6184;
+    color:white;
+}
+#slider>div:last-child p{
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+#slider>div:last-child a{
+    text-decoration: none;
+    color: #73d0da;
+}
+/*info section*/
+#info{
+    height: 440px;
+}
+#info>div>div{
+    float:left;
+    margin:0 20px;
+    width: calc((100% - 80px)/3);
+    padding:100px 0px;
+}
+#info>div>div:first-child{
+    margin-left:0px;
+}
+#info>div>div:last-child{
+    margin-right:0px;
+}
+.info-icon{
+    display: inline-block;
+    margin-right: 5px;
+    width: 90px;
+    height: 90px;
+    border: solid 2px #4e9ba3;
+    border-radius: 50%;
+    vertical-align: top;
+    text-align: center;
+    font-size: 25px;
+    line-height: 90px;
+    color:#4e9ba3;
+}
+
+.info-p{
+    margin-left: 0;
+    display: inline-block;
+    width: 65%;
+    padding:0 15px;
+}
+.info-p p{
+    margin-bottom: 20px;
+    color: #778899;
+}
+.info-p h1{
+    font-size: 20px;
+    padding-bottom:10px;
+}
+.info-p a{
+    color: #323a45;
+    font-size: 14px;
+    font-weight: 500;
+}
+.info-p a:hover{
+    color: #73d0da;
+}
+/*product section*/
+#product{
+    background-image:url(../img/showcase-bg-fixed-01.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 605px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.product-left{
+    height: 690px;
+    width: 30%;
+}
+.product-right{
+    width: 50%;
+    height: 605px;
+    float: right;
+    color:white;
+}
+.product-left{
+    background-image: url(../img/iphone-skeleton.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    overflow: visible;
+    top:41px;
+    left:220px;
+}
+.product-left img{
+    width: 247px;
+    height: 445px;
+    position: absolute;
+    left: 56px;
+    top: 115px;
+}
+.product-right h1{
+    padding-top:85px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+blockquote{
+    margin: 40px 0 0;
+    font-size: 14px;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 25px;
+
+}
+blockquote div{
+    vertical-align: middle;
+    float: left;
+    margin-right: 20px;
+}
+blockquote a img{
+    margin: 20px 0 0 80px;
+}
+
+.download{
+    display: inline-block;
+    padding: 18px 46px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    margin:30px 0 0 0;
+}
+
+.download:hover{
+    color:aqua;
+    border-color: aqua;
+}
+/*sentence section*/
+#sentence{
+    background-color: #f6f7f9;
+    padding: 170px 0 100px 0;
+    margin-top: -100px;
+}
+
+#sentence h1{
+    font-size: 20px;
+    padding-bottom:30px;
+}
+#sentence p,a{
+    font-size: 14px;
+    padding-bottom:20px;
+}
+#sentence a{
+    color:#71dcff;
+}
+/*galery section*/
+#galery>div div{
+    width:calc(100% / 4);
+    font-size: 0;
+    float: left;
+}
+#galery>div div img{
+    width: 100%;
+    height: 100%;
+}
+/*download section*/
+#download{
+    background-color:#3f6184;
+    text-align: center;
+}
+#download div{
+    padding:50px;
+}
+
+#download div h1{
+    padding-top:570px;
+    color:white;
+    font-size: 40px;
+    font-weight: lighter;
+}
+#download div a{
+    margin-bottom:80px;
+}
+/*footer*/
+#footer{
+    height: 312px;
+
+}
+#footer>div>div{
+    float: left;
+}
+#footer>div>div:first-child{
+    width: 30%;
+}
+#footer>div>div:first-child img{
+    padding-top: 113px;
+    padding-bottom: 20px;
+}
+#footer>div>div:first-child p{
+    font-size: 12px;
+    color:#c7cacc;
+}
+#footer>div>div:first-child p a{
+    font-size: 12px;
+    color:aqua;
+    font-style: italic;
+}
+#footer>div>div:last-child{
+    width: 70%;
+}
+#footer>div>div:last-child ul li{
+    list-style:none;
+    display: inline-block;
+    padding-top:113px;
+    margin-left: 90px;
+    float: right;
+}
+#footer>div>div:last-child ul a{
+    color:#3f6184;
+}
+#footer>div>div:last-child ul a:hover{
+    color:aqua;
+}
+
+
+
